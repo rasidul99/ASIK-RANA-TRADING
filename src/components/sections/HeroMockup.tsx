@@ -49,7 +49,7 @@ export function HeroMockup() {
         >
           <Image
             src="/assets/images/dashboard.webp"
-            alt="Goldify Live Trading Platform"
+            alt="Legal Trading Live Platform"
             width={2422}
             height={1778}
             priority

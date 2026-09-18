@@ -3,8 +3,8 @@ import './globals.css';
 import { LanguageProvider } from '@/context/LanguageContext';
 
 export const metadata: Metadata = {
-  title: 'Goldify — Smart Gold Analysis Platform',
-  description: 'Harness AI-powered insights to analyze gold trends, forecast movement, and optimize your trading strategy all in one powerful platform.',
+  title: 'Legal Trading — Institutional Precision & Mentorship | Asik Rana',
+  description: 'Master institutional trading strategies, AI-driven precision analysis, and financial markets with Asik Rana.',
   icons: {
     icon: '/assets/images/favicon.png',
   },
