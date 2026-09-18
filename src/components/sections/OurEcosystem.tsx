@@ -109,29 +109,6 @@ export function OurEcosystem() {
             ],
     },
     {
-      id: 'linktree',
-      title: t('ecoIgTitle'),
-      badge: t('ecoIgBadge'),
-      desc: t('ecoIgDesc'),
-      cta: t('ecoIgCta'),
-      link: 'https://linktr.ee/asikrana',
-      accentColor: '#F5BE09',
-      glowColor: 'rgba(245, 190, 9, 0.35)',
-      icon: '/assets/images/Social media icons/Instagram.png',
-      features:
-        language === 'BN'
-          ? [
-              'সকল ভেরিফাইড ব্রোকার ও প্ল্যাটফর্ম লিঙ্ক',
-              'টেলিগ্রাম ও ইউটিউব চ্যানেলের ডিরেক্টরি',
-              'অফিসিয়াল সোশ্যাল মিডিয়ার একক হাব',
-            ]
-          : [
-              'All verified broker & platform links',
-              'Central hub for Telegram & YouTube',
-              'Unified official social media channels',
-            ],
-    },
-    {
       id: 'whatsapp',
       title: t('ecoWaTitle'),
       badge: t('ecoWaBadge'),
@@ -152,6 +129,29 @@ export function OurEcosystem() {
               'Regular trade updates on official channel',
               'Instant admission & guidance updates',
               'Latest market news & announcements',
+            ],
+    },
+    {
+      id: 'linktree',
+      title: t('ecoIgTitle'),
+      badge: t('ecoIgBadge'),
+      desc: t('ecoIgDesc'),
+      cta: t('ecoIgCta'),
+      link: 'https://linktr.ee/asikrana',
+      accentColor: '#F5BE09',
+      glowColor: 'rgba(245, 190, 9, 0.35)',
+      icon: '/assets/images/Social media icons/Instagram.png',
+      features:
+        language === 'BN'
+          ? [
+              'সকল ভেরিফাইড ব্রোকার ও প্ল্যাটফর্ম লিঙ্ক',
+              'টেলিগ্রাম ও ইউটিউব চ্যানেলের ডিরেক্টরি',
+              'অফিসিয়াল সোশ্যাল মিডিয়ার একক হাব',
+            ]
+          : [
+              'All verified broker & platform links',
+              'Central hub for Telegram & YouTube',
+              'Unified official social media channels',
             ],
     },
   ];
