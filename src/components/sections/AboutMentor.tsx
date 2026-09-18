@@ -205,14 +205,16 @@ export function AboutMentor() {
             >
               <Button
                 variant="primary"
-                onClick={handleApplyMentorship}
+                href="https://t.me/asikrana41"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full sm:w-auto !px-2 xs:!px-3 sm:!px-7 text-xs xs:text-[13px] sm:text-sm h-11 sm:h-[46px] justify-center text-center"
               >
                 {t('mentorCtaPrimary')}
               </Button>
 
               <a
-                href="https://t.me/your_telegram_channel"
+                href="https://t.me/asikrana41"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group/btn navbar-glass px-2 xs:px-3 sm:px-7 h-11 sm:h-[46px] rounded-full font-medium text-xs xs:text-[13px] sm:text-sm text-white hover:text-[#F5BE09] border border-white/15 hover:border-[#F5BE09]/50 active:scale-[0.98] transition-all duration-300 flex items-center justify-center text-center truncate"

@@ -101,7 +101,7 @@ export function LiveClassPreview() {
 
               {/* Center Golden Play Button */}
               <a
-                href="https://www.youtube.com"
+                href="https://youtube.com/@asikrana4141"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Play Live Class Video"
@@ -149,7 +149,7 @@ export function LiveClassPreview() {
             className="mt-8 sm:mt-10 flex justify-center"
           >
             <a
-              href="https://www.youtube.com"
+              href="https://youtube.com/@asikrana4141"
               target="_blank"
               rel="noopener noreferrer"
               className="navbar-glass inline-flex items-center gap-3 px-7 sm:px-9 py-3.5 sm:py-4 rounded-full text-white text-sm sm:text-base font-medium hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300 group/link"

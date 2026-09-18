@@ -14,32 +14,32 @@ export function Footer() {
     {
       name: 'Telegram',
       icon: '/assets/images/Social media icons/Telegram.png',
-      href: 'https://t.me/your_telegram_channel',
+      href: 'https://t.me/Asikrana41bd',
     },
     {
       name: 'YouTube',
       icon: '/assets/images/Social media icons/Youtube.png',
-      href: 'https://youtube.com',
+      href: 'https://youtube.com/@asikrana4141',
     },
     {
       name: 'WhatsApp',
       icon: '/assets/images/Social media icons/Whatsapp.png',
-      href: 'https://wa.me/8801700000000',
+      href: 'https://whatsapp.com/channel/0029VbBEhM77DAWzHE4HTu1b',
     },
     {
       name: 'TikTok',
       icon: '/assets/images/Social media icons/Tiktok.png',
-      href: 'https://tiktok.com',
+      href: 'https://www.tiktok.com/@traderasikrana41',
     },
     {
       name: 'Facebook',
       icon: '/assets/images/Social media icons/Facebook.png',
-      href: 'https://facebook.com',
+      href: 'https://www.facebook.com/asikrana41',
     },
     {
-      name: 'Instagram',
+      name: 'All Links',
       icon: '/assets/images/Social media icons/Instagram.png',
-      href: 'https://instagram.com',
+      href: 'https://linktr.ee/asikrana',
     },
   ];
 
@@ -183,7 +183,7 @@ export function Footer() {
                 {t('footerNavFaq')}
               </a>
               <a
-                href="https://t.me/your_telegram_channel"
+                href="https://t.me/Asikrana41bd"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-[#F5BE09] hover:underline transition-all"
@@ -198,7 +198,7 @@ export function Footer() {
                 {t('footerColSupport')}
               </span>
               <a
-                href="https://wa.me/8801700000000"
+                href="https://whatsapp.com/channel/0029VbBEhM77DAWzHE4HTu1b"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-[#A8A8A8] hover:text-[#25D366] transition-colors"
@@ -206,10 +206,12 @@ export function Footer() {
                 {t('footerNavWa')}
               </a>
               <a
-                href="mailto:support@asikrana.com"
-                className="text-sm text-[#A8A8A8] hover:text-white transition-colors"
+                href="https://t.me/asikrana41"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-[#A8A8A8] hover:text-[#0088cc] transition-colors"
               >
-                support@asikrana.com
+                Telegram: @asikrana41
               </a>
               <a
                 href="#courses"

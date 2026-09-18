@@ -144,7 +144,7 @@ export function CuratedCourses() {
               {/* CTA Action (Hero Secondary Style) */}
               <div className="pt-4 border-t border-white/[0.06]">
                 <a
-                  href="https://t.me/your_telegram_channel"
+                  href="https://t.me/Asikrana41bd"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group/btn navbar-glass w-full inline-flex items-center justify-center px-7 h-12 rounded-full font-medium text-sm text-[#FFFFFF] active:scale-[0.98] transition-all duration-300"
@@ -268,7 +268,7 @@ export function CuratedCourses() {
               {/* CTA Action (Hero Primary Style) */}
               <div className="relative z-10 pt-4 border-t border-white/[0.08]">
                 <a
-                  href="https://wa.me/your_whatsapp_number"
+                  href="https://t.me/asikranaforextrading"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{

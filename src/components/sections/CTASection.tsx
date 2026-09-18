@@ -99,7 +99,7 @@ export function CTASection() {
           {/* Primary Gold CTA with rolling text & shimmer glide */}
           <Button
             variant="primary"
-            href="https://t.me/your_telegram_channel"
+            href="https://t.me/Asikrana41bd"
             target="_blank"
             rel="noopener noreferrer"
             icon={<Star className="w-4 h-4 fill-[#060606] text-[#060606]" />}
