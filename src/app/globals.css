@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: local('Li Ador Noirrit'), url('/fonts/Li-Ador-Noirrit-Unicode.ttf') format('truetype');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-bangla: 'Li Ador Noirrit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  background-color: #060606;
+  color: #F8F7F4;
+  overflow-x: hidden;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+html[lang="bn"] {
+  font-size: 16.5px;
+}
+
+body.font-bangla,
+body.font-bangla * {
+  font-family: var(--font-bangla) !important;
+}
+
+body.font-bangla {
+  letter-spacing: 0.012em;
+}
+
+/* All Action & CTA Buttons Bengali Typography (15px) */
+body.font-bangla .group\/btn,
+body.font-bangla .group\/btn span,
+body.font-bangla a.group\/btn,
+body.font-bangla button.group\/btn,
+body.font-bangla footer button,
+body.font-bangla footer button span {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+
+/* All Section Badges & Labels Bengali Typography (13.5px) */
+body.font-bangla .badge-gradient-border,
+body.font-bangla .badge-gradient-border span,
+body.font-bangla [class*="badge"] span {
+  font-size: 13.5px !important;
+  line-height: 1.35;
+}
+
+/* Enforce Minimum 13.5px on All Bengali Cards, Paragraphs & Lists */
+body.font-bangla p,
+body.font-bangla li {
+  font-size: max(13.5px, 0.84rem);
+  line-height: 1.5;
+}
+
+/* Elevate all sub-13px utility classes in Bengali mode to minimum 13.5px */
+body.font-bangla .text-\[10px\],
+body.font-bangla .text-\[10\.5px\],
+body.font-bangla .text-\[11px\],
+body.font-bangla .text-\[11\.5px\],
+body.font-bangla .text-\[12px\],
+body.font-bangla .text-\[12\.5px\],
+body.font-bangla .text-xs {
+  font-size: 13.5px !important;
+  line-height: 1.5 !important;
+}
+
+body.font-bangla .text-\[13px\] {
+  font-size: 13.5px !important;
+}
+
+/* Custom gradient border badge utility */
+.badge-gradient-border {
+  border: 1px solid transparent;
+  background: 
+    linear-gradient(180deg, rgba(28, 26, 20, 0.85) 0%, rgba(12, 12, 10, 0.95) 100%) padding-box,
+    linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, rgba(245, 190, 9, 0.25) 50%, rgba(245, 190, 9, 0.1) 100%) border-box;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 14px rgba(245, 190, 9, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.badge-gradient-border:hover {
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6), 0 0 22px rgba(245, 190, 9, 0.3);
+  background: 
+    linear-gradient(180deg, rgba(35, 32, 24, 0.9) 0%, rgba(16, 15, 12, 0.98) 100%) padding-box,
+    linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(245, 190, 9, 0.45) 50%, rgba(245, 190, 9, 0.2) 100%) border-box;
+}
+
+/* Luxury Frosted Glass Navbar */
+.navbar-glass {
+  background: rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(245, 190, 9, 0.22);
+  border-radius: 200px;
+  box-shadow: 
+    inset 1px 1px 1.5px 0px rgba(255, 255, 255, 0.45),
+    inset 0px -4px 12px 0px rgba(246, 200, 26, 0.25),
+    0 20px 40px rgba(0, 0, 0, 0.5),
+    0 0 20px rgba(245, 190, 9, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.navbar-glass:hover {
+  border-color: rgba(245, 190, 9, 0.4);
+  box-shadow: 
+    inset 1px 1px 2px 0px rgba(255, 255, 255, 0.6),
+    inset 0px -4px 16px 0px rgba(246, 200, 26, 0.35),
+    0 24px 50px rgba(0, 0, 0, 0.6),
+    0 0 30px rgba(245, 190, 9, 0.2);
+}
+
+/* Luxury Cinematic Button Shine Animation (Slower, ultra-smooth glide) */
+@keyframes btnShineSweep {
+  0% {
+    transform: translateX(-140%) skewX(-20deg);
+  }
+  60% {
+    transform: translateX(240%) skewX(-20deg);
+  }
+  100% {
+    transform: translateX(240%) skewX(-20deg);
+  }
+}
+
+.animate-btn-shine {
+  animation: btnShineSweep 3.6s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
+  will-change: transform;
+}
+
