@@ -96,7 +96,9 @@ export function Navbar() {
             {/* Desktop-Only Action Button (hidden on mobile navbar when closed) */}
             <Button
               variant="nav"
-              href="#courses"
+              href="https://t.me/Asikrana41bd"
+              target="_blank"
+              rel="noopener noreferrer"
               className={`hidden md:inline-flex ${
                 language === 'BN'
                   ? '!text-[15px] !font-bold px-4 sm:px-5'
@@ -177,7 +179,9 @@ export function Navbar() {
             <div className="pt-2.5 border-t border-white/[0.08]">
               <Button
                 variant="primary"
-                href="#courses"
+                href="https://t.me/Asikrana41bd"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMobileMenuOpen(false)}
                 className="w-full justify-center h-10 sm:h-11 text-sm font-semibold"
               >

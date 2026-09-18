@@ -102,6 +102,9 @@ export function Hero() {
         >
           <Button
             variant="primary"
+            href="https://t.me/Asikrana41bd"
+            target="_blank"
+            rel="noopener noreferrer"
             icon={<Star className="w-4 h-4 fill-[#060606] text-[#060606]" />}
             className="w-[220px] sm:w-auto justify-center"
           >
@@ -109,6 +112,7 @@ export function Hero() {
           </Button>
           <Button
             variant="secondary"
+            href="#curriculum"
             className="w-[220px] sm:w-auto justify-center"
           >
             {t('exploreFeatures')}
