@@ -268,7 +268,7 @@ export function CuratedCourses() {
               {/* CTA Action (Hero Primary Style) */}
               <div className="relative z-10 pt-4 border-t border-white/[0.08]">
                 <a
-                  href="https://t.me/asikranaforextrading"
+                  href="https://whatsapp.com/channel/0029VbBEhM77DAWzHE4HTu1b"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
@@ -362,7 +362,9 @@ export function CuratedCourses() {
               {/* CTA Action (Hero Secondary Style) */}
               <div className="pt-4 border-t border-white/[0.06]">
                 <a
-                  href="#contact"
+                  href="https://t.me/asikrana41"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="group/btn navbar-glass w-full inline-flex items-center justify-center px-7 h-12 rounded-full font-medium text-sm text-[#FFFFFF] active:scale-[0.98] transition-all duration-300"
                 >
                   <RollingContent iconRight={<ArrowUpRight className="w-4 h-4 text-[#F5BE09]" />}>
