@@ -214,7 +214,7 @@ export function AboutMentor() {
               </Button>
 
               <a
-                href="https://t.me/asikrana41"
+                href="https://t.me/Asikrana41bd"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group/btn navbar-glass px-2 xs:px-3 sm:px-7 h-11 sm:h-[46px] rounded-full font-medium text-xs xs:text-[13px] sm:text-sm text-white hover:text-[#F5BE09] border border-white/15 hover:border-[#F5BE09]/50 active:scale-[0.98] transition-all duration-300 flex items-center justify-center text-center truncate"
