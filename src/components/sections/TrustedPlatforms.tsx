@@ -133,7 +133,7 @@ export function TrustedPlatforms() {
             <h3 className="text-lg font-bold text-white tracking-tight leading-tight">
               {item.title}
             </h3>
-            <p className="text-xs text-[#9E9E9E] font-normal mt-0.5">
+            <p className="text-[13px] sm:text-[13.5px] text-[#A8A8A8] font-normal mt-0.5">
               {item.subtitle}
             </p>
             {('code' in item && item.code) && (
@@ -152,7 +152,7 @@ export function TrustedPlatforms() {
                 <div className="w-4 h-4 rounded-full bg-white/[0.06] border border-white/10 flex items-center justify-center shrink-0">
                   <Check className="w-2.5 h-2.5 text-[#F5BE09] stroke-[2.5]" />
                 </div>
-                <span className="text-xs sm:text-[13px] text-[#C5C5C5]">
+                <span className="text-[13.5px] sm:text-[14.5px] text-[#D8D8D8]">
                   {feat}
                 </span>
               </li>
@@ -221,7 +221,7 @@ export function TrustedPlatforms() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.75, ease: easeCurve, delay: 0.2 }}
-            className="text-sm sm:text-base font-normal text-[#A8A8A8] max-w-[620px] text-balance leading-relaxed"
+            className="text-[15.5px] sm:text-[17px] md:text-[18.5px] font-normal text-[#C8C8C8] max-w-[680px] text-balance leading-relaxed"
           >
             {t('platformsSubtitle')}
           </motion.p>

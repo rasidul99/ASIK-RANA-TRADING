@@ -88,7 +88,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, ease: easeCurve, delay: 0.3 }}
-          className="text-[13.5px] sm:text-[15px] md:text-[16px] font-normal leading-relaxed text-[#A8A8A8] max-w-[960px] mb-6 px-1 sm:px-0 whitespace-pre-line"
+          className="text-[15px] xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[21px] font-normal leading-relaxed text-[#D4D4D4] max-w-[900px] mb-7 sm:mb-8 px-1 sm:px-0 whitespace-pre-line"
         >
           {t('heroSubtitle')}
         </motion.p>

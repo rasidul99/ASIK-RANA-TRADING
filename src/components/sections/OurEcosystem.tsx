@@ -322,7 +322,7 @@ export function OurEcosystem() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.75, ease: easeCurve, delay: 0.2 }}
-            className="text-sm sm:text-base font-normal text-[#A8A8A8] max-w-[680px] text-balance leading-relaxed"
+            className="text-[15.5px] sm:text-[17px] md:text-[18.5px] font-normal text-[#C8C8C8] max-w-[740px] text-balance leading-relaxed"
           >
             {t('ecosystemSubtitle')}
           </motion.p>
@@ -487,14 +487,14 @@ export function OurEcosystem() {
                       </h3>
 
                       {/* Platform Description */}
-                      <p className="text-sm sm:text-base text-[#B0B0B0] leading-relaxed font-normal mb-6">
+                      <p className="text-[14.5px] sm:text-[16px] text-[#C0C0C0] leading-relaxed font-normal mb-6">
                         {item.desc}
                       </p>
 
                       {/* Highlights List */}
                       <div className="space-y-2.5 mb-8 pt-2">
                         {item.features.map((feat, fIdx) => (
-                          <div key={fIdx} className="flex items-center gap-2.5 text-xs sm:text-sm text-[#C5C5C5]">
+                          <div key={fIdx} className="flex items-center gap-2.5 text-[13.5px] sm:text-[14.5px] text-[#D8D8D8]">
                             <div className="w-4 h-4 rounded-full bg-white/[0.06] border border-white/10 flex items-center justify-center shrink-0">
                               <Check className="w-2.5 h-2.5 text-[#F5BE09] stroke-[2.5]" />
                             </div>

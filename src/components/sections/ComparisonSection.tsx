@@ -82,7 +82,7 @@ export function ComparisonSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.75, ease: easeCurve, delay: 0.2 }}
-            className="text-sm sm:text-base font-normal text-[#A8A8A8] max-w-[720px] text-balance leading-relaxed"
+            className="text-[15.5px] sm:text-[17px] md:text-[18.5px] font-normal text-[#C8C8C8] max-w-[760px] text-balance leading-relaxed"
           >
             {t('compareSubtitle')}
           </motion.p>
@@ -119,7 +119,7 @@ export function ComparisonSection() {
                     <div className="w-6 h-6 rounded-full bg-red-500/15 border border-red-500/30 text-red-400 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <X className="w-3.5 h-3.5 stroke-[2.5]" />
                     </div>
-                    <p className="text-sm sm:text-[14px] text-[#C4C4C4] leading-relaxed">
+                    <p className="text-[14px] sm:text-[15px] md:text-[15.5px] text-[#D4D4D4] leading-relaxed">
                       {item}
                     </p>
                   </div>
@@ -158,10 +158,10 @@ export function ComparisonSection() {
                       <Check className="w-3.5 h-3.5 stroke-[3]" />
                     </div>
                     <div>
-                      <h4 className="text-sm sm:text-[15px] font-bold text-black leading-snug mb-0.5">
+                      <h4 className="text-[14.5px] sm:text-[16px] font-bold text-black leading-snug mb-0.5">
                         {item.title}
                       </h4>
-                      <p className="text-xs sm:text-sm text-black/85 font-medium leading-relaxed">
+                      <p className="text-[13px] sm:text-[14px] text-black/85 font-medium leading-relaxed">
                         {item.desc}
                       </p>
                     </div>

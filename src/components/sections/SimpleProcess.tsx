@@ -142,7 +142,7 @@ export function SimpleProcess() {
         <h3 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-white group-hover:text-[#FFE79A] transition-colors duration-300 mb-2 sm:mb-3.5 tracking-tight">
           {step.title}
         </h3>
-        <p className="text-xs xs:text-[13px] sm:text-base text-[#A8A8A8] leading-relaxed font-normal max-w-[560px]">
+        <p className="text-[13.5px] xs:text-[14.5px] sm:text-base text-[#C4C4C4] leading-relaxed font-normal max-w-[560px]">
           {step.desc}
         </p>
       </div>
@@ -260,7 +260,7 @@ export function SimpleProcess() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.75, ease: easeCurve, delay: 0.2 }}
-            className="text-sm sm:text-base font-normal text-[#A8A8A8] max-w-[680px] text-balance leading-relaxed"
+            className="text-[15.5px] sm:text-[17px] md:text-[18.5px] font-normal text-[#C8C8C8] max-w-[740px] text-balance leading-relaxed"
           >
             {t('processSubtitle')}
           </motion.p>

@@ -90,7 +90,7 @@ export function CTASection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.75, ease: easeCurve, delay: 0.2 }}
-          className="text-sm sm:text-base font-normal text-[#A8A8A8] max-w-[620px] leading-relaxed mb-7 sm:mb-9 text-balance px-2"
+          className="text-[15.5px] sm:text-[17px] md:text-[18.5px] font-normal text-[#C8C8C8] max-w-[720px] leading-relaxed mb-7 sm:mb-9 text-balance px-2"
         >
           {t('ctaSubtitle')}
         </motion.p>

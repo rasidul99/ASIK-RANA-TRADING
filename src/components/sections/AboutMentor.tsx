@@ -144,7 +144,7 @@ export function AboutMentor() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.75, ease: easeCurve, delay: 0.36 }}
-                className="text-sm sm:text-base text-[#A8A8A8] leading-relaxed font-normal mb-5 sm:mb-8"
+                className="text-[15px] sm:text-[16.5px] md:text-[17.5px] text-[#C4C4C4] leading-relaxed font-normal mb-5 sm:mb-8"
               >
                 {t('mentorBio')}
               </motion.p>
@@ -163,11 +163,11 @@ export function AboutMentor() {
                     <div className="w-8 h-8 xs:w-9 xs:h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-b from-[#F6C81A] to-[#E9AF03] flex items-center justify-center mb-2.5 sm:mb-4 shadow-[0_4px_16px_rgba(246,200,26,0.3)] shrink-0">
                       <ShieldCheck className="w-4 h-4 sm:w-5 sm:h-5 text-[#060606] stroke-[2.2]" />
                     </div>
-                    <h4 className="text-[13px] xs:text-[14px] sm:text-base font-bold text-white mb-1 sm:mb-1.5 tracking-tight leading-snug">
+                    <h4 className="text-[14px] xs:text-[15px] sm:text-base font-bold text-white mb-1 sm:mb-1.5 tracking-tight leading-snug">
                       {t('mentorPillar1Title')}
                     </h4>
                   </div>
-                  <p className="text-[12.5px] xs:text-[13px] sm:text-sm text-[#A8A8A8] leading-relaxed mt-1">
+                  <p className="text-[13px] xs:text-[13.5px] sm:text-sm md:text-[14.5px] text-[#B8B8B8] leading-relaxed mt-1">
                     {t('mentorPillar1Desc')}
                   </p>
                 </motion.div>
@@ -184,11 +184,11 @@ export function AboutMentor() {
                     <div className="w-8 h-8 xs:w-9 xs:h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-b from-[#F6C81A] to-[#E9AF03] flex items-center justify-center mb-2.5 sm:mb-4 shadow-[0_4px_16px_rgba(246,200,26,0.3)] shrink-0">
                       <CandlestickChart className="w-4 h-4 sm:w-5 sm:h-5 text-[#060606] stroke-[2.2]" />
                     </div>
-                    <h4 className="text-[13px] xs:text-[14px] sm:text-base font-bold text-white mb-1 sm:mb-1.5 tracking-tight leading-snug">
+                    <h4 className="text-[14px] xs:text-[15px] sm:text-base font-bold text-white mb-1 sm:mb-1.5 tracking-tight leading-snug">
                       {t('mentorPillar2Title')}
                     </h4>
                   </div>
-                  <p className="text-[12.5px] xs:text-[13px] sm:text-sm text-[#A8A8A8] leading-relaxed mt-1">
+                  <p className="text-[13px] xs:text-[13.5px] sm:text-sm md:text-[14.5px] text-[#B8B8B8] leading-relaxed mt-1">
                     {t('mentorPillar2Desc')}
                   </p>
                 </motion.div>

@@ -91,7 +91,7 @@ export function CurriculumRoadmap() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.75, ease: easeCurve, delay: 0.2 }}
-            className="text-sm sm:text-base font-normal text-[#A8A8A8] max-w-[680px] text-balance leading-relaxed"
+            className="text-[15.5px] sm:text-[17px] md:text-[18.5px] font-normal text-[#C8C8C8] max-w-[760px] text-balance leading-relaxed"
           >
             {t('roadmapSubtitle')}
           </motion.p>
@@ -141,12 +141,12 @@ export function CurriculumRoadmap() {
                     </div>
 
                     {/* Pillar Title */}
-                    <h3 className="text-[13.5px] xs:text-[14.5px] sm:text-lg md:text-xl font-bold text-white group-hover/card:text-[#FFE79A] transition-colors duration-300 mb-1.5 sm:mb-2.5 tracking-tight leading-snug">
+                    <h3 className="text-[14.5px] xs:text-[15.5px] sm:text-lg md:text-xl font-bold text-white group-hover/card:text-[#FFE79A] transition-colors duration-300 mb-1.5 sm:mb-2.5 tracking-tight leading-snug">
                       {pillar.title}
                     </h3>
 
                     {/* Pillar Description */}
-                    <p className="text-[13px] xs:text-[13.5px] sm:text-sm text-[#A8A8A8] leading-relaxed font-normal">
+                    <p className="text-[13.5px] xs:text-[14px] sm:text-[15px] md:text-[15.5px] text-[#BEBEBE] leading-relaxed font-normal">
                       {pillar.desc}
                     </p>
                   </div>

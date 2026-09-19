@@ -64,7 +64,7 @@ export function StudentReviews() {
       className="w-[290px] xs:w-[330px] sm:w-[420px] md:w-[460px] shrink-0 p-5 xs:p-6 sm:p-7 rounded-2xl sm:rounded-3xl bg-[#121212] shadow-[0_12px_35px_rgba(0,0,0,0.6)] flex flex-col justify-between select-none"
     >
       {/* Review Text - Regular text, no italic */}
-      <p className="text-[13px] xs:text-[13.5px] sm:text-[15px] text-[#D0D0D0] font-normal leading-relaxed mb-4 sm:mb-6 not-italic">
+      <p className="text-[14px] xs:text-[14.5px] sm:text-[16px] md:text-[16.5px] text-[#E0E0E0] font-normal leading-relaxed mb-4 sm:mb-6 not-italic">
         &ldquo;{item.quote}&rdquo;
       </p>
 
@@ -80,7 +80,7 @@ export function StudentReviews() {
           <h4 className="text-sm sm:text-[15px] font-bold text-white tracking-tight leading-tight">
             {item.name}
           </h4>
-          <p className="text-[12px] sm:text-[13px] text-[#8E8E8E] font-normal mt-0.5">
+          <p className="text-[12.5px] sm:text-[13.5px] text-[#9E9E9E] font-normal mt-0.5">
             {item.role}
           </p>
         </div>
@@ -127,7 +127,7 @@ export function StudentReviews() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.75, ease: easeCurve, delay: 0.2 }}
-            className="text-sm sm:text-base font-normal text-[#A8A8A8] max-w-[680px] text-balance leading-relaxed"
+            className="text-[15.5px] sm:text-[17px] md:text-[18.5px] font-normal text-[#C8C8C8] max-w-[740px] text-balance leading-relaxed"
           >
             {t('reviewsSubtitle')}
           </motion.p>

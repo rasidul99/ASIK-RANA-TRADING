@@ -93,7 +93,7 @@ export function Footer() {
               )}
             </h2>
 
-            <p className="text-sm sm:text-base text-[#8E8E8E] leading-relaxed mt-3 font-normal">
+            <p className="text-[14.5px] sm:text-base text-[#B0B0B0] leading-relaxed mt-3 font-normal">
               {t('footerDesc')}
             </p>
           </div>

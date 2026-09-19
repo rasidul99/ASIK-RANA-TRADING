@@ -75,7 +75,7 @@ export function CuratedCourses() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.75, ease: easeCurve, delay: 0.2 }}
-            className="text-sm sm:text-base font-normal text-[#A8A8A8] max-w-[720px] text-balance leading-relaxed"
+            className="text-[15.5px] sm:text-[17px] md:text-[18.5px] font-normal text-[#C8C8C8] max-w-[800px] text-balance leading-relaxed"
           >
             {t('coursesSubtitle')}
           </motion.p>
@@ -112,7 +112,7 @@ export function CuratedCourses() {
                     {t('course1TitleLine2')}
                   </span>
                 </h3>
-                <p className="text-xs sm:text-sm text-[#8E8E8E] leading-relaxed mb-6">
+                <p className="text-[14px] sm:text-[15px] md:text-[15.5px] text-[#C0C0C0] leading-relaxed mb-6">
                   {t('course1Desc')}
                 </p>
 
@@ -125,12 +125,12 @@ export function CuratedCourses() {
 
                 {/* Curriculum List (Neutral) */}
                 <div className="mb-8">
-                  <h4 className="text-xs font-semibold uppercase tracking-wider text-white/60 mb-3.5">
+                  <h4 className="text-[13px] sm:text-sm font-semibold uppercase tracking-wider text-white/80 mb-3.5">
                     {t('course1FeatureTitle')}
                   </h4>
                   <div className="flex flex-col gap-2.5">
                     {course1Features.map((item, idx) => (
-                      <div key={idx} className="flex items-start gap-2.5 text-xs sm:text-[13px] text-[#A8A8A8]">
+                      <div key={idx} className="flex items-start gap-2.5 text-[13.5px] sm:text-[14.5px] md:text-[15px] text-[#D8D8D8]">
                         <div className="w-5 h-5 rounded-full bg-white/[0.08] border border-white/10 text-white/70 flex items-center justify-center flex-shrink-0 mt-0.5">
                           <Check className="w-3 h-3 stroke-[2.5]" />
                         </div>
@@ -228,7 +228,7 @@ export function CuratedCourses() {
                     {t('course2TitleLine2')}
                   </span>
                 </h3>
-                <p className="text-xs sm:text-sm text-[#C8C8C8] leading-relaxed mb-6">
+                <p className="text-[14px] sm:text-[15px] md:text-[15.5px] text-[#E5E5E5] leading-relaxed mb-6">
                   {t('course2Desc')}
                 </p>
 
@@ -241,7 +241,7 @@ export function CuratedCourses() {
 
                 {/* Curriculum List */}
                 <div className="mb-8">
-                  <h4 className="text-xs font-semibold uppercase tracking-wider text-[#F5BE09] mb-3.5 flex items-center gap-1.5">
+                  <h4 className="text-[13px] sm:text-sm font-semibold uppercase tracking-wider text-[#F5BE09] mb-3.5 flex items-center gap-1.5">
                     <Zap className="w-3.5 h-3.5" />
                     <span>{t('course2FeatureTitle')}</span>
                   </h4>
@@ -252,10 +252,10 @@ export function CuratedCourses() {
                           <Check className="w-3 h-3 stroke-[2.5]" />
                         </div>
                         <div>
-                          <span className="text-xs sm:text-[13.5px] font-semibold text-white block leading-snug">
+                          <span className="text-[14px] sm:text-[15px] md:text-[15.5px] font-semibold text-white block leading-snug">
                             {item.title}
                           </span>
-                          <span className="text-[12.5px] sm:text-[13px] text-[#9E9E9E] leading-relaxed">
+                          <span className="text-[13px] sm:text-[13.5px] md:text-[14px] text-[#ABABAB] leading-relaxed">
                             {item.desc}
                           </span>
                         </div>
@@ -330,7 +330,7 @@ export function CuratedCourses() {
                     {t('course3TitleLine2')}
                   </span>
                 </h3>
-                <p className="text-xs sm:text-sm text-[#8E8E8E] leading-relaxed mb-6">
+                <p className="text-[14px] sm:text-[15px] md:text-[15.5px] text-[#C0C0C0] leading-relaxed mb-6">
                   {t('course3Desc')}
                 </p>
 
@@ -343,12 +343,12 @@ export function CuratedCourses() {
 
                 {/* Curriculum List (Neutral) */}
                 <div className="mb-8">
-                  <h4 className="text-xs font-semibold uppercase tracking-wider text-white/60 mb-3.5">
+                  <h4 className="text-[13px] sm:text-sm font-semibold uppercase tracking-wider text-white/80 mb-3.5">
                     {t('course3FeatureTitle')}
                   </h4>
                   <div className="flex flex-col gap-2.5">
                     {course3Features.map((item, idx) => (
-                      <div key={idx} className="flex items-start gap-2.5 text-xs sm:text-[13px] text-[#A8A8A8]">
+                      <div key={idx} className="flex items-start gap-2.5 text-[13.5px] sm:text-[14.5px] md:text-[15px] text-[#D8D8D8]">
                         <div className="w-5 h-5 rounded-full bg-white/[0.08] border border-white/10 text-white/70 flex items-center justify-center flex-shrink-0 mt-0.5">
                           <Check className="w-3 h-3 stroke-[2.5]" />
                         </div>

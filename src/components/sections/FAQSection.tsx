@@ -75,14 +75,14 @@ export function FAQSection() {
             </motion.h2>
 
             <motion.p
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.75, ease: easeCurve, delay: 0.2 }}
-              className="text-sm sm:text-base font-normal text-[#A8A8A8] max-w-[460px] leading-relaxed"
-            >
-              {t('faqSubtitle')}
-            </motion.p>
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.75, ease: easeCurve, delay: 0.2 }}
+            className="text-[15.5px] sm:text-[17px] md:text-[18px] font-normal text-[#C8C8C8] max-w-[480px] leading-relaxed"
+          >
+            {t('faqSubtitle')}
+          </motion.p>
 
             {/* Bull and Bear Gold Illustration Image */}
             <motion.div
@@ -154,7 +154,7 @@ export function FAQSection() {
                       aria-expanded={isOpen}
                     >
                       <span
-                        className={`text-[13.5px] xs:text-[14.5px] sm:text-[16px] lg:text-[17.5px] font-medium tracking-tight transition-colors leading-snug ${
+                        className={`text-[14.5px] xs:text-[15.5px] sm:text-[17px] lg:text-[18px] font-medium tracking-tight transition-colors leading-snug ${
                           isOpen ? 'text-[#FFC72C]' : 'text-white'
                         }`}
                       >
@@ -173,7 +173,7 @@ export function FAQSection() {
                     {/* Collapsible Answer without divider line */}
                     {isOpen && (
                       <div className="relative z-10 px-4 pb-3.5 pt-0 sm:px-6 sm:pb-5 lg:px-7 lg:pb-6 transition-all duration-300">
-                        <p className="text-[13px] xs:text-[13.5px] sm:text-sm lg:text-[14.5px] text-[#A3A3A3] leading-relaxed font-normal">
+                        <p className="text-[14px] xs:text-[14.5px] sm:text-[15.5px] lg:text-[16px] text-[#C8C8C8] leading-relaxed font-normal">
                           {faq.a}
                         </p>
                       </div>
