@@ -380,7 +380,7 @@ export function OurEcosystem() {
                   </h3>
                 </div>
 
-                {/* Buttons (Dual or Single) */}
+                {/* Buttons (Dual or Single) - Hero Secondary Style */}
                 <div className="pt-1 flex flex-col gap-1.5">
                   {item.buttons.map((btn, bIdx) => (
                     <a
@@ -388,14 +388,10 @@ export function OurEcosystem() {
                       href={btn.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`w-full h-8 xs:h-8.5 rounded-full flex items-center justify-center gap-1 px-2 text-[11px] xs:text-[11.5px] font-semibold transition-all duration-300 shadow-sm ${
-                        btn.isPrimary
-                          ? 'bg-gradient-to-r from-[#F6C81A] to-[#E9AF03] text-black hover:brightness-110 shadow-[0_2px_10px_rgba(246,200,26,0.3)]'
-                          : 'bg-white/[0.05] hover:bg-[#F5BE09]/15 border border-white/[0.12] hover:border-[#F5BE09]/50 text-[#E0E0E0] hover:text-[#FFE79A]'
-                      }`}
+                      className="group/btn navbar-glass w-full h-8 xs:h-8.5 rounded-full flex items-center justify-center gap-1.5 px-2.5 text-[11px] xs:text-[11.5px] font-medium text-[#FFFFFF] hover:text-[#F5BE09] border border-white/15 hover:border-[#F5BE09]/50 active:scale-[0.98] transition-all duration-300 shadow-sm"
                     >
                       <span className="truncate">{btn.label}</span>
-                      <ArrowUpRight className={`w-3 h-3 shrink-0 ${btn.isPrimary ? 'text-black' : 'text-[#F5BE09]'}`} />
+                      <ArrowUpRight className="w-3.5 h-3.5 text-[#F5BE09] shrink-0" />
                     </a>
                   ))}
                 </div>
@@ -507,7 +503,7 @@ export function OurEcosystem() {
                         ))}
                       </div>
 
-                      {/* Action Buttons Row */}
+                      {/* Action Buttons Row - Hero Secondary Style */}
                       <div className="pt-2 flex flex-wrap items-center gap-3">
                         {item.buttons.map((btn, bIdx) => (
                           <a
@@ -516,16 +512,12 @@ export function OurEcosystem() {
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={(e) => e.stopPropagation()}
-                            className={`inline-flex items-center justify-center px-6 h-11 rounded-full font-semibold text-sm transition-all duration-300 ${
-                              btn.isPrimary
-                                ? 'bg-gradient-to-r from-[#F6C81A] via-[#FEFB76] to-[#E9AF03] text-black shadow-[0_4px_16px_rgba(246,200,26,0.35)] hover:shadow-[0_6px_22px_rgba(246,200,26,0.55)] active:scale-[0.98]'
-                                : 'group/btn navbar-glass text-white hover:text-[#F5BE09] border border-white/15 hover:border-[#F5BE09]/50 active:scale-[0.98]'
-                            }`}
+                            className="group/btn navbar-glass inline-flex items-center justify-center px-6 h-11 rounded-full font-medium text-sm text-[#FFFFFF] hover:text-[#F5BE09] border border-white/15 hover:border-[#F5BE09]/50 active:scale-[0.98] transition-all duration-300"
                           >
                             <RollingContent
                               iconRight={
                                 <ArrowUpRight
-                                  className={`w-4 h-4 ${btn.isPrimary ? 'text-black' : 'text-[#F5BE09]'}`}
+                                  className="w-4 h-4 text-[#F5BE09]"
                                 />
                               }
                             >
