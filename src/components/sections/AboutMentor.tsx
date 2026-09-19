@@ -126,7 +126,7 @@ export function AboutMentor() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.75, ease: easeCurve, delay: 0.28 }}
-                className="font-serif text-[18px] xs:text-[20px] sm:text-3xl md:text-[32px] font-normal mb-3 sm:mb-5 tracking-tight leading-[1.22] sm:leading-[1.28]"
+                className="font-serif text-[22px] xs:text-[25px] sm:text-3xl md:text-[36px] lg:text-[40px] font-normal mb-3.5 sm:mb-5 tracking-tight leading-[1.22] sm:leading-[1.26]"
               >
                 {t('mentorHeadline').split('\n').map((line, idx) => (
                   <span
@@ -144,7 +144,7 @@ export function AboutMentor() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.75, ease: easeCurve, delay: 0.36 }}
-                className="text-[13px] xs:text-[14px] sm:text-base text-[#A8A8A8] leading-relaxed font-normal mb-4 sm:mb-8"
+                className="text-sm sm:text-base text-[#A8A8A8] leading-relaxed font-normal mb-5 sm:mb-8"
               >
                 {t('mentorBio')}
               </motion.p>

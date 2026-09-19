@@ -310,7 +310,7 @@ export function OurEcosystem() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.75, ease: easeCurve, delay: 0.1 }}
-            className={`font-serif text-2xl sm:text-3xl md:text-[46px] font-normal mt-3 sm:mt-4 mb-2.5 sm:mb-3 tracking-tight max-w-[860px] bg-gradient-to-b from-white via-[#EEEEEE] to-[#9E9E9E] bg-clip-text text-transparent ${
+            className={`font-serif text-3xl sm:text-4xl md:text-[46px] font-normal mt-4 mb-3 tracking-tight max-w-[860px] bg-gradient-to-b from-white via-[#EEEEEE] to-[#9E9E9E] bg-clip-text text-transparent ${
               language === 'BN' ? 'leading-[1.24] md:leading-[1.28]' : 'leading-[1.1] md:leading-[1.14]'
             }`}
           >
@@ -322,7 +322,7 @@ export function OurEcosystem() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.75, ease: easeCurve, delay: 0.2 }}
-            className="text-xs sm:text-sm md:text-base font-normal text-[#A8A8A8] max-w-[680px] text-balance leading-relaxed"
+            className="text-sm sm:text-base font-normal text-[#A8A8A8] max-w-[680px] text-balance leading-relaxed"
           >
             {t('ecosystemSubtitle')}
           </motion.p>

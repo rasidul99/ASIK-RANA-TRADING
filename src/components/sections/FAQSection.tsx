@@ -67,7 +67,7 @@ export function FAQSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.75, ease: easeCurve, delay: 0.1 }}
-              className={`font-serif text-[22px] sm:text-[28px] md:text-3xl lg:text-[31px] xl:text-[36px] font-normal mt-3 sm:mt-4 mb-2 sm:mb-3 tracking-tight bg-gradient-to-b from-white via-[#EEEEEE] to-[#9E9E9E] bg-clip-text text-transparent ${
+              className={`font-serif text-[26px] xs:text-3xl sm:text-[34px] md:text-4xl lg:text-[38px] xl:text-[42px] font-normal mt-3.5 sm:mt-4 mb-2.5 sm:mb-3 tracking-tight bg-gradient-to-b from-white via-[#EEEEEE] to-[#9E9E9E] bg-clip-text text-transparent ${
                 language === 'BN' ? 'leading-[1.24] lg:leading-[1.28]' : 'leading-[1.12] lg:leading-[1.16]'
               }`}
             >
@@ -79,7 +79,7 @@ export function FAQSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.75, ease: easeCurve, delay: 0.2 }}
-              className="text-[13px] sm:text-sm md:text-base font-normal text-[#A8A8A8] max-w-[440px] leading-relaxed"
+              className="text-sm sm:text-base font-normal text-[#A8A8A8] max-w-[460px] leading-relaxed"
             >
               {t('faqSubtitle')}
             </motion.p>

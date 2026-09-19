@@ -70,8 +70,8 @@ export function CTASection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.75, ease: easeCurve, delay: 0.1 }}
-          className={`font-serif text-[22px] xs:text-[25px] sm:text-[32px] md:text-[36px] lg:text-[42px] font-normal tracking-tight mt-4 sm:mt-5 mb-3 sm:mb-4 text-balance max-w-[760px] bg-gradient-to-b from-white via-[#EEEEEE] to-[#9E9E9E] bg-clip-text text-transparent ${
-            language === 'BN' ? 'leading-[1.26] md:leading-[1.3]' : 'leading-[1.18] md:leading-[1.2]'
+          className={`font-serif text-3xl sm:text-4xl md:text-[44px] lg:text-[48px] font-normal tracking-tight mt-4 sm:mt-5 mb-3.5 sm:mb-4 text-balance max-w-[800px] bg-gradient-to-b from-white via-[#EEEEEE] to-[#9E9E9E] bg-clip-text text-transparent ${
+            language === 'BN' ? 'leading-[1.24] md:leading-[1.28]' : 'leading-[1.12] md:leading-[1.16]'
           }`}
         >
           {t('ctaTitle')}
@@ -83,7 +83,7 @@ export function CTASection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.75, ease: easeCurve, delay: 0.2 }}
-          className="text-[13px] xs:text-[14px] sm:text-[16px] font-normal text-[#A8A8A8] max-w-[560px] leading-relaxed mb-7 sm:mb-9 text-balance px-2"
+          className="text-sm sm:text-base font-normal text-[#A8A8A8] max-w-[620px] leading-relaxed mb-7 sm:mb-9 text-balance px-2"
         >
           {t('ctaSubtitle')}
         </motion.p>
