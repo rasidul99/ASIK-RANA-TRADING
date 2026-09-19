@@ -188,7 +188,31 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="text-sm text-[#F5BE09] hover:underline transition-all"
               >
-                {t('footerNavTg')}
+                Telegram: Binary Channel
+              </a>
+              <a
+                href="https://t.me/asikranaforextrading"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-[#A8A8A8] hover:text-[#F5BE09] transition-colors"
+              >
+                Telegram: Forex Channel
+              </a>
+              <a
+                href="https://www.facebook.com/asikrana41"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-[#A8A8A8] hover:text-[#1877F2] transition-colors"
+              >
+                Facebook: Main Page
+              </a>
+              <a
+                href="https://www.facebook.com/asikranafx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-[#A8A8A8] hover:text-[#1877F2] transition-colors"
+              >
+                Facebook: Forex Page
               </a>
             </div>
 

@@ -29,14 +29,24 @@ export function OurEcosystem() {
       features:
         language === 'BN'
           ? [
-              'বাইনারি চ্যানেল: @Asikrana41bd',
-              'ফরেক্স চ্যানেল: @asikranaforextrading',
-              'প্রতিদিনের লাইভ চার্ট ও সিগন্যাল আপডেট',
+              'বাইনারি চ্যানেল: @Asikrana41bd (ফ্রি সিগন্যাল ও ট্রেড)',
+              'ফরেক্স চ্যানেল: @asikranaforextrading (মার্কেট আউটলুক)',
+              'প্রতিদিনের লাইভ চার্ট অ্যানালাইসিস ও রিয়েল-টাইম আপডেট',
             ]
           : [
-              'Binary Channel: @Asikrana41bd',
-              'Forex Channel: @asikranaforextrading',
-              'Daily live charts & market updates',
+              'Binary Channel: @Asikrana41bd (Free Signals & Trades)',
+              'Forex Channel: @asikranaforextrading (Market Outlook)',
+              'Daily live chart analysis & instant updates',
+            ],
+      buttons:
+        language === 'BN'
+          ? [
+              { label: 'বাইনারি টেলিগ্রাম', link: 'https://t.me/Asikrana41bd', isPrimary: true },
+              { label: 'ফরেক্স টেলিগ্রাম', link: 'https://t.me/asikranaforextrading', isPrimary: false },
+            ]
+          : [
+              { label: 'Binary Telegram', link: 'https://t.me/Asikrana41bd', isPrimary: true },
+              { label: 'Forex Telegram', link: 'https://t.me/asikranaforextrading', isPrimary: false },
             ],
     },
     {
@@ -54,12 +64,22 @@ export function OurEcosystem() {
           ? [
               'মেইন বাইনারি চ্যানেল: @asikrana4141',
               'ফরেক্স চ্যানেল: @asikranafx',
-              '২০০+ ফ্রি ইন-ডেপথ ভিডিও টিউটোরিয়াল',
+              '২০০+ ফ্রি ইন-ডেপথ ভিডিও টিউটোরিয়াল ও লাইভ ক্লাস',
             ]
           : [
               'Main Binary Channel: @asikrana4141',
               'Forex Channel: @asikranafx',
-              '200+ free in-depth video tutorials',
+              '200+ free in-depth video tutorials & live classes',
+            ],
+      buttons:
+        language === 'BN'
+          ? [
+              { label: 'বাইনারি ইউটিউব', link: 'https://youtube.com/@asikrana4141', isPrimary: true },
+              { label: 'ফরেক্স ইউটিউব', link: 'https://youtube.com/@asikranafx', isPrimary: false },
+            ]
+          : [
+              { label: 'Binary YouTube', link: 'https://youtube.com/@asikrana4141', isPrimary: true },
+              { label: 'Forex YouTube', link: 'https://youtube.com/@asikranafx', isPrimary: false },
             ],
     },
     {
@@ -77,12 +97,22 @@ export function OurEcosystem() {
           ? [
               'মেইন অফিসিয়াল পেজ: /asikrana41',
               'ফরেক্স ট্রেডিং পেজ: /asikranafx',
-              'নিয়মিত মার্কেট আপডেট ও ট্রেডার্স কমিউনিটি',
+              'নিয়মিত মার্কেট আপডেট, ভিডিও ও ট্রেডার্স কমিউনিটি',
             ]
           : [
               'Main Official Page: /asikrana41',
               'Forex Trading Page: /asikranafx',
-              'Daily market updates & trader community',
+              'Daily market updates, videos & trader community',
+            ],
+      buttons:
+        language === 'BN'
+          ? [
+              { label: 'মেইন ফেসবুক পেজ', link: 'https://www.facebook.com/asikrana41', isPrimary: true },
+              { label: 'ফরেক্স ফেসবুক পেজ', link: 'https://www.facebook.com/asikranafx', isPrimary: false },
+            ]
+          : [
+              { label: 'Main Facebook Page', link: 'https://www.facebook.com/asikrana41', isPrimary: true },
+              { label: 'Forex Facebook Page', link: 'https://www.facebook.com/asikranafx', isPrimary: false },
             ],
     },
     {
@@ -107,6 +137,16 @@ export function OurEcosystem() {
               '2nd TikTok: @asik.rana.dubai',
               '60-second rapid chart & psychology tips',
             ],
+      buttons:
+        language === 'BN'
+          ? [
+              { label: 'মেইন টিকটক', link: 'https://www.tiktok.com/@traderasikrana41', isPrimary: true },
+              { label: '২য় টিকটক', link: 'https://www.tiktok.com/@asik.rana.dubai', isPrimary: false },
+            ]
+          : [
+              { label: 'Main TikTok', link: 'https://www.tiktok.com/@traderasikrana41', isPrimary: true },
+              { label: '2nd TikTok', link: 'https://www.tiktok.com/@asik.rana.dubai', isPrimary: false },
+            ],
     },
     {
       id: 'whatsapp',
@@ -130,6 +170,14 @@ export function OurEcosystem() {
               'Urgent market alerts & breaking news',
               'Admission & key announcements',
             ],
+      buttons:
+        language === 'BN'
+          ? [
+              { label: 'হোয়াটসঅ্যাপ চ্যানেল', link: 'https://whatsapp.com/channel/0029VbBEhM77DAWzHE4HTu1b', isPrimary: true },
+            ]
+          : [
+              { label: 'WhatsApp Channel', link: 'https://whatsapp.com/channel/0029VbBEhM77DAWzHE4HTu1b', isPrimary: true },
+            ],
     },
     {
       id: 'linktree',
@@ -152,6 +200,14 @@ export function OurEcosystem() {
               'All verified broker & platform links',
               'Central hub for Telegram & YouTube',
               '100% verified official Linktree hub',
+            ],
+      buttons:
+        language === 'BN'
+          ? [
+              { label: 'সকল অফিসিয়াল লিঙ্ক', link: 'https://linktr.ee/asikrana', isPrimary: true },
+            ]
+          : [
+              { label: 'Open All Links', link: 'https://linktr.ee/asikrana', isPrimary: true },
             ],
     },
   ];
@@ -277,16 +333,13 @@ export function OurEcosystem() {
             ======================================================== */}
         <div className="lg:hidden grid grid-cols-2 gap-3 sm:gap-4 mb-4">
           {socialChannels.map((item, idx) => (
-            <motion.a
+            <motion.div
               key={item.id}
-              href={item.link}
-              target="_blank"
-              rel="noopener noreferrer"
               initial={{ opacity: 0, y: 30, scale: 0.98 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true, amount: 0.15 }}
               transition={{ duration: 0.7, ease: easeCurve, delay: 0.1 + idx * 0.06 }}
-              className="relative p-3.5 xs:p-4 rounded-2xl bg-gradient-to-b from-[#141414]/95 via-[#0E0E0E]/95 to-[#080808]/95 border border-white/[0.08] hover:border-[#F5BE09]/50 shadow-[0_10px_30px_rgba(0,0,0,0.6)] hover:shadow-[0_15px_35px_rgba(245,190,9,0.15)] flex flex-col justify-between group/card overflow-hidden transition-all duration-300 active:scale-[0.98]"
+              className="relative p-3.5 xs:p-4 rounded-2xl bg-gradient-to-b from-[#141414]/95 via-[#0E0E0E]/95 to-[#080808]/95 border border-white/[0.08] hover:border-[#F5BE09]/50 shadow-[0_10px_30px_rgba(0,0,0,0.6)] hover:shadow-[0_15px_35px_rgba(245,190,9,0.15)] flex flex-col justify-between group/card overflow-hidden transition-all duration-300"
             >
               {/* Subtle ambient light aura */}
               <div
@@ -296,7 +349,7 @@ export function OurEcosystem() {
 
               <div className="relative z-10 flex flex-col h-full justify-between">
                 <div>
-                  {/* Top Row: Icon + Follower/Member Badge */}
+                  {/* Top Row: Icon + Official Verified Badge */}
                   <div className="flex items-start justify-between gap-1.5 mb-2.5">
                     {/* Platform Icon */}
                     <div className="relative w-9 h-9 xs:w-10 xs:h-10 rounded-xl p-1 bg-white/[0.04] border border-white/[0.08] flex items-center justify-center shrink-0 shadow-sm">
@@ -309,31 +362,45 @@ export function OurEcosystem() {
                       />
                     </div>
 
-                    {/* Member / Audience Badge */}
-                    <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-white/[0.04] border border-white/[0.08] text-[12px] xs:text-[13px] font-medium text-[#D5D5D5] shadow-sm max-w-[62%]">
-                      <span
-                        className="w-1.5 h-1.5 rounded-full animate-pulse shrink-0"
-                        style={{ backgroundColor: item.accentColor }}
-                      />
+                    {/* Official Verified Badge */}
+                    <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#F5BE09]/[0.08] border border-[#F5BE09]/30 text-[10px] xs:text-[11px] font-semibold text-[#FFE79A] shadow-sm max-w-[65%]">
+                      <svg
+                        className="w-3 h-3 text-[#F5BE09] fill-current shrink-0 drop-shadow-[0_0_4px_rgba(245,190,9,0.5)]"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="m8.6 22.5-1.9-3.2-3.6-.8.4-3.7-2.5-2.8 2.5-2.8-.4-3.7 3.6-.8 1.9-3.2 3.4 1.5 3.4-1.5 1.9 3.2 3.6.8-.4 3.7 2.5 2.8-2.5 2.8.4 3.7-3.6.8-1.9 3.2-3.4-1.5zm2.35-7.05 5.65-5.65-1.4-1.4-4.25 4.25-2.15-2.15-1.4 1.4z" />
+                      </svg>
                       <span className="truncate">{item.badge}</span>
                     </div>
                   </div>
 
                   {/* Platform Title */}
-                  <h3 className="text-[13.5px] xs:text-[14.5px] sm:text-base font-bold text-white group-hover/card:text-[#FFE79A] tracking-tight leading-snug transition-colors line-clamp-1 mb-3">
+                  <h3 className="text-[13.5px] xs:text-[14.5px] sm:text-base font-bold text-white group-hover/card:text-[#FFE79A] tracking-tight leading-snug transition-colors line-clamp-1 mb-2.5">
                     {item.title}
                   </h3>
                 </div>
 
-                {/* Small Join/CTA Button */}
-                <div className="pt-1">
-                  <div className="w-full h-8 xs:h-8.5 rounded-full bg-white/[0.04] group-hover/card:bg-[#F5BE09]/15 border border-white/[0.12] group-hover/card:border-[#F5BE09]/50 flex items-center justify-center gap-1 px-2.5 text-[12.5px] xs:text-[13px] font-medium text-[#E0E0E0] group-hover/card:text-[#FFE79A] transition-all duration-300 shadow-sm">
-                    <span className="truncate">{item.cta}</span>
-                    <ArrowUpRight className="w-3.5 h-3.5 text-[#F5BE09] shrink-0" />
-                  </div>
+                {/* Buttons (Dual or Single) */}
+                <div className="pt-1 flex flex-col gap-1.5">
+                  {item.buttons.map((btn, bIdx) => (
+                    <a
+                      key={bIdx}
+                      href={btn.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`w-full h-8 xs:h-8.5 rounded-full flex items-center justify-center gap-1 px-2 text-[11px] xs:text-[11.5px] font-semibold transition-all duration-300 shadow-sm ${
+                        btn.isPrimary
+                          ? 'bg-gradient-to-r from-[#F6C81A] to-[#E9AF03] text-black hover:brightness-110 shadow-[0_2px_10px_rgba(246,200,26,0.3)]'
+                          : 'bg-white/[0.05] hover:bg-[#F5BE09]/15 border border-white/[0.12] hover:border-[#F5BE09]/50 text-[#E0E0E0] hover:text-[#FFE79A]'
+                      }`}
+                    >
+                      <span className="truncate">{btn.label}</span>
+                      <ArrowUpRight className={`w-3 h-3 shrink-0 ${btn.isPrimary ? 'text-black' : 'text-[#F5BE09]'}`} />
+                    </a>
+                  ))}
                 </div>
               </div>
-            </motion.a>
+            </motion.div>
           ))}
         </div>
 
@@ -377,10 +444,10 @@ export function OurEcosystem() {
                     />
 
                     <div className="relative z-10">
-                      {/* Header: Platform Index + Member Pill Badge */}
+                      {/* Header: Platform Index + Official Verified Badge */}
                       <div className="flex items-center justify-between gap-4 mb-6">
                         <div className="flex items-center gap-3">
-                          {/* Mobile Icon (visible on small screens when sticky side is hidden) */}
+                          {/* Mobile Icon */}
                           <div className="lg:hidden relative w-10 h-10 shrink-0 drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)]">
                             <Image
                               src={item.icon}
@@ -402,12 +469,14 @@ export function OurEcosystem() {
                           </span>
                         </div>
 
-                        {/* Stat / Member Pill Badge */}
-                        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/[0.04] border border-white/[0.08] text-xs font-medium text-[#E0E0E0] shadow-sm backdrop-blur-sm">
-                          <span
-                            className="w-1.5 h-1.5 rounded-full animate-pulse"
-                            style={{ backgroundColor: item.accentColor }}
-                          />
+                        {/* Official Verified Badge */}
+                        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#F5BE09]/[0.08] border border-[#F5BE09]/30 text-xs font-semibold text-[#FFE79A] shadow-sm backdrop-blur-sm">
+                          <svg
+                            className="w-3.5 h-3.5 text-[#F5BE09] fill-current shrink-0 drop-shadow-[0_0_6px_rgba(245,190,9,0.5)]"
+                            viewBox="0 0 24 24"
+                          >
+                            <path d="m8.6 22.5-1.9-3.2-3.6-.8.4-3.7-2.5-2.8 2.5-2.8-.4-3.7 3.6-.8 1.9-3.2 3.4 1.5 3.4-1.5 1.9 3.2 3.6.8-.4 3.7 2.5 2.8-2.5 2.8.4 3.7-3.6.8-1.9 3.2-3.4-1.5zm2.35-7.05 5.65-5.65-1.4-1.4-4.25 4.25-2.15-2.15-1.4 1.4z" />
+                          </svg>
                           <span>{item.badge}</span>
                         </div>
                       </div>
@@ -438,19 +507,32 @@ export function OurEcosystem() {
                         ))}
                       </div>
 
-                      {/* CTA Button */}
-                      <div className="pt-2">
-                        <a
-                          href={item.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onClick={(e) => e.stopPropagation()}
-                          className="group/btn navbar-glass inline-flex items-center justify-center px-7 h-11 rounded-full font-medium text-sm text-white hover:text-[#F5BE09] border border-white/15 hover:border-[#F5BE09]/50 active:scale-[0.98] transition-all duration-300"
-                        >
-                          <RollingContent iconRight={<ArrowUpRight className="w-4 h-4 text-[#F5BE09]" />}>
-                            {item.cta}
-                          </RollingContent>
-                        </a>
+                      {/* Action Buttons Row */}
+                      <div className="pt-2 flex flex-wrap items-center gap-3">
+                        {item.buttons.map((btn, bIdx) => (
+                          <a
+                            key={bIdx}
+                            href={btn.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={(e) => e.stopPropagation()}
+                            className={`inline-flex items-center justify-center px-6 h-11 rounded-full font-semibold text-sm transition-all duration-300 ${
+                              btn.isPrimary
+                                ? 'bg-gradient-to-r from-[#F6C81A] via-[#FEFB76] to-[#E9AF03] text-black shadow-[0_4px_16px_rgba(246,200,26,0.35)] hover:shadow-[0_6px_22px_rgba(246,200,26,0.55)] active:scale-[0.98]'
+                                : 'group/btn navbar-glass text-white hover:text-[#F5BE09] border border-white/15 hover:border-[#F5BE09]/50 active:scale-[0.98]'
+                            }`}
+                          >
+                            <RollingContent
+                              iconRight={
+                                <ArrowUpRight
+                                  className={`w-4 h-4 ${btn.isPrimary ? 'text-black' : 'text-[#F5BE09]'}`}
+                                />
+                              }
+                            >
+                              {btn.label}
+                            </RollingContent>
+                          </a>
+                        ))}
                       </div>
                     </div>
                   </div>
