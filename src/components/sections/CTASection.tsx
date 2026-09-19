@@ -70,11 +70,18 @@ export function CTASection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.75, ease: easeCurve, delay: 0.1 }}
-          className={`font-serif text-3xl sm:text-4xl md:text-[44px] lg:text-[48px] font-normal tracking-tight mt-4 sm:mt-5 mb-3.5 sm:mb-4 text-balance max-w-[800px] bg-gradient-to-b from-white via-[#EEEEEE] to-[#9E9E9E] bg-clip-text text-transparent ${
+          className={`font-serif text-3xl sm:text-4xl md:text-[44px] lg:text-[48px] font-normal tracking-tight mt-4 sm:mt-5 mb-3.5 sm:mb-4 max-w-[840px] text-balance ${
             language === 'BN' ? 'leading-[1.24] md:leading-[1.28]' : 'leading-[1.12] md:leading-[1.16]'
           }`}
         >
-          {t('ctaTitle')}
+          {t('ctaTitle').split('\n').map((line, idx) => (
+            <span
+              key={idx}
+              className="block bg-gradient-to-b from-white via-[#EEEEEE] to-[#9E9E9E] bg-clip-text text-transparent pb-0.5 sm:pb-1"
+            >
+              {line}
+            </span>
+          ))}
         </motion.h2>
 
         {/* Subtitle - Inter Display matching Hero subtitle style */}
