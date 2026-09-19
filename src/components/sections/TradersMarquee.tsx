@@ -51,13 +51,13 @@ function StatCounter({ target, duration = 2, format, isBn, isInView }: StatCount
 
 const statsConfig = [
   {
-    target: 100,
+    target: 150,
     format: (val: number, isBn: boolean) =>
       isBn ? `${toBanglaDigits(val.toString())}K+` : `${val}K+`,
     labelKey: 'stat1Label' as const,
   },
   {
-    target: 15000,
+    target: 50000,
     format: (val: number, isBn: boolean) => {
       const formatted = val.toLocaleString('en-US');
       return isBn ? `${toBanglaDigits(formatted)}+` : `${formatted}+`;
@@ -65,9 +65,8 @@ const statsConfig = [
     labelKey: 'stat2Label' as const,
   },
   {
-    target: 5,
-    format: (val: number, isBn: boolean) =>
-      isBn ? `${toBanglaDigits(val.toString())}+ বছর` : `${val}+ Years`,
+    target: 9,
+    format: (val: number) => `${val} Year+`,
     labelKey: 'stat3Label' as const,
   },
   {
