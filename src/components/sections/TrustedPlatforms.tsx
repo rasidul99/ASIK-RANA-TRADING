@@ -18,22 +18,23 @@ export function TrustedPlatforms() {
 
   const platforms = [
     {
+      id: 'quotex',
+      title: t('quotexTitle'),
+      subtitle: t('quotexSubtitle'),
+      icon: '/assets/images/icons/platform-quotex.svg',
+      features: [t('quotexF1'), t('quotexF2'), t('quotexF3')],
+      cta: t('quotexCta'),
+      link: 'http://market-qx.trade/sign-up/?lid=249649',
+    },
+    {
       id: 'exness',
       title: t('exnessTitle'),
       subtitle: t('exnessSubtitle'),
       icon: '/assets/images/icons/platform-exness.svg',
       features: [t('exnessF1'), t('exnessF2'), t('exnessF3')],
       cta: t('exnessCta'),
-      link: 'https://one.exness-track.com',
-    },
-    {
-      id: 'xm',
-      title: t('xmTitle'),
-      subtitle: t('xmSubtitle'),
-      icon: '/assets/images/icons/platform-xm.svg',
-      features: [t('xmF1'), t('xmF2'), t('xmF3')],
-      cta: t('xmCta'),
-      link: 'https://www.xm.com',
+      link: 'https://one.exnessonelink.com/boarding/sign-up/a/n16p7foxe7',
+      code: 'n16p7foxe7',
     },
     {
       id: 'tradingview',
@@ -42,7 +43,7 @@ export function TrustedPlatforms() {
       icon: '/assets/images/icons/platform-tradingview.svg',
       features: [t('tvF1'), t('tvF2'), t('tvF3')],
       cta: t('tvCta'),
-      link: 'https://www.tradingview.com',
+      link: 'https://www.tradingview.com/pricing/?share_your_love=MediaX_Trader',
     },
   ];
 
@@ -135,6 +136,11 @@ export function TrustedPlatforms() {
             <p className="text-xs text-[#9E9E9E] font-normal mt-0.5">
               {item.subtitle}
             </p>
+            {('code' in item && item.code) && (
+              <span className="inline-block mt-1.5 px-2 py-0.5 rounded bg-[#F5BE09]/10 border border-[#F5BE09]/30 text-[11px] font-mono font-medium text-[#FFE79A]">
+                Partner Code: {item.code}
+              </span>
+            )}
           </div>
         </div>
 

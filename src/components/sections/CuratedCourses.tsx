@@ -268,7 +268,7 @@ export function CuratedCourses() {
               {/* CTA Action (Hero Primary Style) */}
               <div className="relative z-10 pt-4 border-t border-white/[0.08]">
                 <a
-                  href="https://whatsapp.com/channel/0029VbBEhM77DAWzHE4HTu1b"
+                  href="https://wa.me/971543675177"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{

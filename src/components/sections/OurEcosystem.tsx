@@ -29,14 +29,14 @@ export function OurEcosystem() {
       features:
         language === 'BN'
           ? [
-              'প্রতিদিনের লাইভ চার্ট ব্রেকডাউন',
-              'ফরেক্স ও গোল্ড ট্রেন্ড অ্যানালাইসিস',
-              'ইনস্ট্যান্ট অর্থনৈতিক নিউজ আপডেট',
+              'বাইনারি চ্যানেল: @Asikrana41bd',
+              'ফরেক্স চ্যানেল: @asikranaforextrading',
+              'প্রতিদিনের লাইভ চার্ট ও সিগন্যাল আপডেট',
             ]
           : [
-              'Daily live chart breakdowns',
-              'Forex & Gold market outlooks',
-              'Instant high-impact news updates',
+              'Binary Channel: @Asikrana41bd',
+              'Forex Channel: @asikranaforextrading',
+              'Daily live charts & market updates',
             ],
     },
     {
@@ -52,14 +52,14 @@ export function OurEcosystem() {
       features:
         language === 'BN'
           ? [
-              '১০০+ ফ্রি ইন-ডেপথ ভিডিও টিউটোরিয়াল',
-              'লাইভ স্ট্র্যাটেজি ও সেশন ব্যাকটেস্টিং',
-              'ট্রেডিং মাইন্ডসেট ও সাইকোলজি গাইড',
+              'মেইন বাইনারি চ্যানেল: @asikrana4141',
+              'ফরেক্স চ্যানেল: @asikranafx',
+              '২০০+ ফ্রি ইন-ডেপথ ভিডিও টিউটোরিয়াল',
             ]
           : [
-              '100+ free in-depth video tutorials',
-              'Live strategy & session backtesting',
-              'Trading mindset & emotional guides',
+              'Main Binary Channel: @asikrana4141',
+              'Forex Channel: @asikranafx',
+              '200+ free in-depth video tutorials',
             ],
     },
     {
@@ -75,14 +75,14 @@ export function OurEcosystem() {
       features:
         language === 'BN'
           ? [
-              'শিক্ষার্থীদের সক্রিয় চার্ট শেয়ারিং',
-              'নিয়মিত প্রশ্নোত্তর ও সল্যুশন সেশন',
-              'সহযোগী ট্রেডার্স কমিউনিটি নেটওয়ার্ক',
+              'মেইন অফিসিয়াল পেজ: /asikrana41',
+              'ফরেক্স ট্রেডিং পেজ: /asikranafx',
+              'নিয়মিত মার্কেট আপডেট ও ট্রেডার্স কমিউনিটি',
             ]
           : [
-              'Student chart & setup sharing',
-              'Active community Q&A discussions',
-              'Supportive peer trader network',
+              'Main Official Page: /asikrana41',
+              'Forex Trading Page: /asikranafx',
+              'Daily market updates & trader community',
             ],
     },
     {
@@ -98,14 +98,14 @@ export function OurEcosystem() {
       features:
         language === 'BN'
           ? [
-              '৬০-সেকেন্ডের কুইক চার্ট টিপস',
-              'ট্রেডিং সাইকোলজি ও ডিসিপ্লিন রিলস',
-              'সহজ ক্যান্ডেলস্টিক প্যাটার্ন গাইড',
+              'মেইন টিকটক: @traderasikrana41',
+              '২য় টিকটক: @asik.rana.dubai',
+              '৬০-সেকেন্ডের কুইক চার্ট ও সাইকোলজি টিপস',
             ]
           : [
-              '60-second rapid chart breakdowns',
-              'Trading psychology & discipline reels',
-              'Simple candlestick pattern guides',
+              'Main TikTok: @traderasikrana41',
+              '2nd TikTok: @asik.rana.dubai',
+              '60-second rapid chart & psychology tips',
             ],
     },
     {
@@ -121,14 +121,14 @@ export function OurEcosystem() {
       features:
         language === 'BN'
           ? [
-              'অফিসিয়াল চ্যানেলে নিয়মিত ট্রেড আপডেট',
-              'ভর্তি ও পরামর্শ সংক্রান্ত ইনস্ট্যান্ট তথ্য',
-              'লেটেস্ট মার্কেট নিউজ ও অ্যানাউন্সমেন্ট',
+              'অফিসিয়াল হোয়াটসঅ্যাপ চ্যানেল',
+              'জরুরি মার্কেট এলার্ট ও ব্রেকিং নিউজ',
+              'অ্যাডমিশন ও গুরুত্বপূর্ণ নোটিফিকেশন',
             ]
           : [
-              'Regular trade updates on official channel',
-              'Instant admission & guidance updates',
-              'Latest market news & announcements',
+              'Official WhatsApp Channel',
+              'Urgent market alerts & breaking news',
+              'Admission & key announcements',
             ],
     },
     {
@@ -145,13 +145,13 @@ export function OurEcosystem() {
         language === 'BN'
           ? [
               'সকল ভেরিফাইড ব্রোকার ও প্ল্যাটফর্ম লিঙ্ক',
-              'টেলিগ্রাম ও ইউটিউব চ্যানেলের ডিরেক্টরি',
-              'অফিসিয়াল সোশ্যাল মিডিয়ার একক হাব',
+              'টেলিগ্রাম ও ইউটিউব চ্যানেলের সম্পূর্ণ হাব',
+              '১০০% ভেরিফাইড অফিসিয়াল লিঙ্কট্রি',
             ]
           : [
               'All verified broker & platform links',
               'Central hub for Telegram & YouTube',
-              'Unified official social media channels',
+              '100% verified official Linktree hub',
             ],
     },
   ];

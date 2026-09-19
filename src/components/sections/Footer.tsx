@@ -198,6 +198,14 @@ export function Footer() {
                 {t('footerColSupport')}
               </span>
               <a
+                href="https://wa.me/971543675177"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-[#A8A8A8] hover:text-[#25D366] transition-colors"
+              >
+                WhatsApp: +971 54 367 5177
+              </a>
+              <a
                 href="https://whatsapp.com/channel/0029VbBEhM77DAWzHE4HTu1b"
                 target="_blank"
                 rel="noopener noreferrer"
