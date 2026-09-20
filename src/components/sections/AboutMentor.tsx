@@ -195,20 +195,20 @@ export function AboutMentor() {
               </div>
             </div>
 
-            {/* Action Buttons: 1 row on mobile (2 cols) and inline-flex on sm+ */}
+            {/* Action Buttons: stacked on mobile, inline-flex on sm+ */}
             <motion.div
               initial={{ opacity: 0, y: 22 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.7, ease: easeCurve, delay: 0.6 }}
-              className="grid grid-cols-2 sm:flex sm:flex-row sm:items-center gap-2.5 sm:gap-4 pt-2"
+              className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 pt-2 w-full sm:w-auto"
             >
               <Button
                 variant="primary"
                 href="https://t.me/asikrana41"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto !px-2 xs:!px-3 sm:!px-7 text-xs xs:text-[13px] sm:text-sm h-11 sm:h-[46px] justify-center text-center"
+                className="w-full sm:w-auto px-6 sm:px-7 text-xs xs:text-[13px] sm:text-sm h-11 sm:h-[46px] justify-center text-center"
               >
                 {t('mentorCtaPrimary')}
               </Button>
@@ -217,7 +217,7 @@ export function AboutMentor() {
                 href="https://t.me/Asikrana41bd"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group/btn navbar-glass px-2 xs:px-3 sm:px-7 h-11 sm:h-[46px] rounded-full font-medium text-xs xs:text-[13px] sm:text-sm text-white hover:text-[#F5BE09] border border-white/15 hover:border-[#F5BE09]/50 active:scale-[0.98] transition-all duration-300 flex items-center justify-center text-center truncate"
+                className="group/btn navbar-glass w-full sm:w-auto px-6 sm:px-7 h-11 sm:h-[46px] rounded-full font-medium text-xs xs:text-[13px] sm:text-sm text-white hover:text-[#F5BE09] border border-white/15 hover:border-[#F5BE09]/50 active:scale-[0.98] transition-all duration-300 flex items-center justify-center text-center"
               >
                 <RollingContent iconRight={<ArrowUpRight className="w-3.5 h-3.5 text-[#F5BE09] shrink-0" />}>
                   {t('mentorCtaSecondary')}

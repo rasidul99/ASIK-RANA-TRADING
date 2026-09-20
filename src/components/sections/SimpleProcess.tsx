@@ -197,12 +197,12 @@ export function SimpleProcess() {
         </p>
       </div>
 
-      {/* CTA Action Buttons: 1 row on mobile & desktop */}
-      <div className="relative z-10 grid grid-cols-2 sm:flex sm:flex-row items-stretch sm:items-center gap-2.5 sm:gap-3.5">
+      {/* CTA Action Buttons: stacked on mobile, flex-row on desktop */}
+      <div className="relative z-10 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-3.5 w-full sm:w-auto">
         <Button
           variant="primary"
           onClick={handleApply}
-          className="w-full sm:w-auto !px-2 xs:!px-3 sm:!px-7 !text-[11px] xs:!text-xs sm:!text-sm h-11 sm:h-[46px] justify-center text-center"
+          className="w-full sm:w-auto px-6 sm:px-7 text-xs xs:text-[13px] sm:text-sm h-11 sm:h-[46px] justify-center text-center"
         >
           {t('stepCtaPrimary')}
         </Button>
@@ -211,7 +211,7 @@ export function SimpleProcess() {
           href="https://whatsapp.com/channel/0029VbBEhM77DAWzHE4HTu1b"
           target="_blank"
           rel="noopener noreferrer"
-          className="group/btn navbar-glass px-2 xs:px-3 sm:px-6 h-11 sm:h-[46px] rounded-full font-medium text-[11px] xs:text-xs sm:text-sm text-white hover:text-[#F5BE09] border border-white/15 hover:border-[#F5BE09]/50 active:scale-[0.98] transition-all duration-300 flex items-center justify-center text-center shrink-0"
+          className="group/btn navbar-glass w-full sm:w-auto px-6 sm:px-7 h-11 sm:h-[46px] rounded-full font-medium text-xs xs:text-[13px] sm:text-sm text-white hover:text-[#F5BE09] border border-white/15 hover:border-[#F5BE09]/50 active:scale-[0.98] transition-all duration-300 flex items-center justify-center text-center"
         >
           <RollingContent iconRight={<ArrowUpRight className="w-3.5 h-3.5 text-[#F5BE09] shrink-0" />}>
             {t('stepCtaSecondary')}
