@@ -54,27 +54,10 @@ body.font-bangla [class*="badge"] span {
   line-height: 1.35;
 }
 
-/* Enforce Minimum 13.5px on All Bengali Cards, Paragraphs & Lists */
-body.font-bangla p,
-body.font-bangla li {
-  font-size: max(13.5px, 0.84rem);
-  line-height: 1.5;
-}
-
-/* Elevate all sub-13px utility classes in Bengali mode to minimum 13.5px */
-body.font-bangla .text-\[10px\],
-body.font-bangla .text-\[10\.5px\],
-body.font-bangla .text-\[11px\],
-body.font-bangla .text-\[11\.5px\],
-body.font-bangla .text-\[12px\],
-body.font-bangla .text-\[12\.5px\],
-body.font-bangla .text-xs {
-  font-size: 13.5px !important;
-  line-height: 1.5 !important;
-}
-
-body.font-bangla .text-\[13px\] {
-  font-size: 13.5px !important;
+/* Bengali Typography Optimization */
+body.font-bangla {
+  letter-spacing: 0.015em;
+  text-rendering: optimizeLegibility;
 }
 
 /* Custom gradient border badge utility */

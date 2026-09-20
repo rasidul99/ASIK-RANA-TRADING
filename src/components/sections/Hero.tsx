@@ -88,7 +88,11 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, ease: easeCurve, delay: 0.3 }}
-          className="text-[15px] xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[21px] font-normal leading-relaxed text-[#D4D4D4] max-w-[900px] mb-7 sm:mb-8 px-1 sm:px-0 whitespace-pre-line"
+          className={`font-normal text-[#D4D4D4] max-w-[920px] mb-7 sm:mb-8 px-1 sm:px-0 whitespace-pre-line ${
+            language === 'BN'
+              ? 'text-[17px] xs:text-[18px] sm:text-[20px] md:text-[22px] lg:text-[23px] leading-[1.65]'
+              : 'text-[15px] xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[21px] leading-relaxed'
+          }`}
         >
           {t('heroSubtitle')}
         </motion.p>
