@@ -40,13 +40,20 @@ export function LiveClassPreview() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.75, ease: easeCurve, delay: 0.1 }}
-            className={`font-serif text-3xl sm:text-4xl md:text-[42px] lg:text-[46px] font-normal mt-4 mb-4 tracking-tight max-w-[1020px] bg-gradient-to-b from-white via-[#EEEEEE] to-[#9E9E9E] bg-clip-text text-transparent transition-all ${
+            className={`font-serif text-3xl sm:text-4xl md:text-[42px] lg:text-[46px] font-normal mt-4 mb-4 tracking-tight max-w-[960px] text-balance transition-all ${
               language === 'BN'
-                ? 'leading-[1.22] md:leading-[1.26]'
-                : 'leading-[1.1] md:leading-[1.14]'
+                ? 'leading-[1.24] md:leading-[1.28]'
+                : 'leading-[1.12] md:leading-[1.16]'
             }`}
           >
-            {t('videoTitle')}
+            {t('videoTitle').split('\n').map((line, idx) => (
+              <span
+                key={idx}
+                className="block bg-gradient-to-b from-white via-[#EEEEEE] to-[#9E9E9E] bg-clip-text text-transparent pb-0.5 sm:pb-1"
+              >
+                {line}
+              </span>
+            ))}
           </motion.h2>
 
           <motion.p
